@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		527721F41C0FD23600C398AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 527721F31C0FD23600C398AB /* main.m */; };
+		527721F71C0FD23600C398AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 527721F61C0FD23600C398AB /* AppDelegate.m */; };
+		527721FA1C0FD23600C398AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527721F91C0FD23600C398AB /* ViewController.m */; };
+		527721FD1C0FD23600C398AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527721FB1C0FD23600C398AB /* Main.storyboard */; };
+		527721FF1C0FD23600C398AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527721FE1C0FD23600C398AB /* Assets.xcassets */; };
+		527722021C0FD23600C398AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527722001C0FD23600C398AB /* LaunchScreen.storyboard */; };
+		5277220D1C0FD23700C398AB /* WestpacTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5277220C1C0FD23700C398AB /* WestpacTestTests.m */; };
+		527722181C0FD23700C398AB /* WestpacTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 527722171C0FD23700C398AB /* WestpacTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		527722091C0FD23700C398AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 527721E71C0FD23600C398AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 527721EE1C0FD23600C398AB;
+			remoteInfo = WestpacTest;
+		};
+		527722141C0FD23700C398AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 527721E71C0FD23600C398AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 527721EE1C0FD23600C398AB;
+			remoteInfo = WestpacTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		527721EF1C0FD23600C398AB /* WestpacTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WestpacTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		527721F31C0FD23600C398AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		527721F51C0FD23600C398AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		527721F61C0FD23600C398AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		527721F81C0FD23600C398AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		527721F91C0FD23600C398AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		527721FC1C0FD23600C398AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		527721FE1C0FD23600C398AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		527722011C0FD23600C398AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		527722031C0FD23600C398AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527722081C0FD23700C398AB /* WestpacTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WestpacTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5277220C1C0FD23700C398AB /* WestpacTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WestpacTestTests.m; sourceTree = "<group>"; };
+		5277220E1C0FD23700C398AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527722131C0FD23700C398AB /* WestpacTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WestpacTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		527722171C0FD23700C398AB /* WestpacTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WestpacTestUITests.m; sourceTree = "<group>"; };
+		527722191C0FD23700C398AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		527721EC1C0FD23600C398AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527722051C0FD23700C398AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527722101C0FD23700C398AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		527721E61C0FD23600C398AB = {
+			isa = PBXGroup;
+			children = (
+				527721F11C0FD23600C398AB /* WestpacTest */,
+				5277220B1C0FD23700C398AB /* WestpacTestTests */,
+				527722161C0FD23700C398AB /* WestpacTestUITests */,
+				527721F01C0FD23600C398AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		527721F01C0FD23600C398AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527721EF1C0FD23600C398AB /* WestpacTest.app */,
+				527722081C0FD23700C398AB /* WestpacTestTests.xctest */,
+				527722131C0FD23700C398AB /* WestpacTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527721F11C0FD23600C398AB /* WestpacTest */ = {
+			isa = PBXGroup;
+			children = (
+				527721F51C0FD23600C398AB /* AppDelegate.h */,
+				527721F61C0FD23600C398AB /* AppDelegate.m */,
+				527721F81C0FD23600C398AB /* ViewController.h */,
+				527721F91C0FD23600C398AB /* ViewController.m */,
+				527721FB1C0FD23600C398AB /* Main.storyboard */,
+				527721FE1C0FD23600C398AB /* Assets.xcassets */,
+				527722001C0FD23600C398AB /* LaunchScreen.storyboard */,
+				527722031C0FD23600C398AB /* Info.plist */,
+				527721F21C0FD23600C398AB /* Supporting Files */,
+			);
+			path = WestpacTest;
+			sourceTree = "<group>";
+		};
+		527721F21C0FD23600C398AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				527721F31C0FD23600C398AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5277220B1C0FD23700C398AB /* WestpacTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				5277220C1C0FD23700C398AB /* WestpacTestTests.m */,
+				5277220E1C0FD23700C398AB /* Info.plist */,
+			);
+			path = WestpacTestTests;
+			sourceTree = "<group>";
+		};
+		527722161C0FD23700C398AB /* WestpacTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				527722171C0FD23700C398AB /* WestpacTestUITests.m */,
+				527722191C0FD23700C398AB /* Info.plist */,
+			);
+			path = WestpacTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		527721EE1C0FD23600C398AB /* WestpacTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5277221C1C0FD23700C398AB /* Build configuration list for PBXNativeTarget "WestpacTest" */;
+			buildPhases = (
+				527721EB1C0FD23600C398AB /* Sources */,
+				527721EC1C0FD23600C398AB /* Frameworks */,
+				527721ED1C0FD23600C398AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WestpacTest;
+			productName = WestpacTest;
+			productReference = 527721EF1C0FD23600C398AB /* WestpacTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		527722071C0FD23700C398AB /* WestpacTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5277221F1C0FD23700C398AB /* Build configuration list for PBXNativeTarget "WestpacTestTests" */;
+			buildPhases = (
+				527722041C0FD23700C398AB /* Sources */,
+				527722051C0FD23700C398AB /* Frameworks */,
+				527722061C0FD23700C398AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5277220A1C0FD23700C398AB /* PBXTargetDependency */,
+			);
+			name = WestpacTestTests;
+			productName = WestpacTestTests;
+			productReference = 527722081C0FD23700C398AB /* WestpacTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		527722121C0FD23700C398AB /* WestpacTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527722221C0FD23700C398AB /* Build configuration list for PBXNativeTarget "WestpacTestUITests" */;
+			buildPhases = (
+				5277220F1C0FD23700C398AB /* Sources */,
+				527722101C0FD23700C398AB /* Frameworks */,
+				527722111C0FD23700C398AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				527722151C0FD23700C398AB /* PBXTargetDependency */,
+			);
+			name = WestpacTestUITests;
+			productName = WestpacTestUITests;
+			productReference = 527722131C0FD23700C398AB /* WestpacTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		527721E71C0FD23600C398AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "John Rogers";
+				TargetAttributes = {
+					527721EE1C0FD23600C398AB = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					527722071C0FD23700C398AB = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 527721EE1C0FD23600C398AB;
+					};
+					527722121C0FD23700C398AB = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 527721EE1C0FD23600C398AB;
+					};
+				};
+			};
+			buildConfigurationList = 527721EA1C0FD23600C398AB /* Build configuration list for PBXProject "WestpacTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 527721E61C0FD23600C398AB;
+			productRefGroup = 527721F01C0FD23600C398AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				527721EE1C0FD23600C398AB /* WestpacTest */,
+				527722071C0FD23700C398AB /* WestpacTestTests */,
+				527722121C0FD23700C398AB /* WestpacTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		527721ED1C0FD23600C398AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527722021C0FD23600C398AB /* LaunchScreen.storyboard in Resources */,
+				527721FF1C0FD23600C398AB /* Assets.xcassets in Resources */,
+				527721FD1C0FD23600C398AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527722061C0FD23700C398AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527722111C0FD23700C398AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527721EB1C0FD23600C398AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527721FA1C0FD23600C398AB /* ViewController.m in Sources */,
+				527721F71C0FD23600C398AB /* AppDelegate.m in Sources */,
+				527721F41C0FD23600C398AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527722041C0FD23700C398AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5277220D1C0FD23700C398AB /* WestpacTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5277220F1C0FD23700C398AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527722181C0FD23700C398AB /* WestpacTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5277220A1C0FD23700C398AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 527721EE1C0FD23600C398AB /* WestpacTest */;
+			targetProxy = 527722091C0FD23700C398AB /* PBXContainerItemProxy */;
+		};
+		527722151C0FD23700C398AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 527721EE1C0FD23600C398AB /* WestpacTest */;
+			targetProxy = 527722141C0FD23700C398AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		527721FB1C0FD23600C398AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527721FC1C0FD23600C398AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		527722001C0FD23600C398AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527722011C0FD23600C398AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5277221A1C0FD23700C398AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5277221B1C0FD23700C398AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5277221D1C0FD23700C398AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WestpacTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jr.WestpacTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5277221E1C0FD23700C398AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WestpacTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jr.WestpacTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		527722201C0FD23700C398AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WestpacTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jr.WestpacTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WestpacTest.app/WestpacTest";
+			};
+			name = Debug;
+		};
+		527722211C0FD23700C398AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WestpacTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jr.WestpacTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WestpacTest.app/WestpacTest";
+			};
+			name = Release;
+		};
+		527722231C0FD23700C398AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WestpacTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jr.WestpacTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WestpacTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		527722241C0FD23700C398AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WestpacTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jr.WestpacTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WestpacTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		527721EA1C0FD23600C398AB /* Build configuration list for PBXProject "WestpacTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5277221A1C0FD23700C398AB /* Debug */,
+				5277221B1C0FD23700C398AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5277221C1C0FD23700C398AB /* Build configuration list for PBXNativeTarget "WestpacTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5277221D1C0FD23700C398AB /* Debug */,
+				5277221E1C0FD23700C398AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5277221F1C0FD23700C398AB /* Build configuration list for PBXNativeTarget "WestpacTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527722201C0FD23700C398AB /* Debug */,
+				527722211C0FD23700C398AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		527722221C0FD23700C398AB /* Build configuration list for PBXNativeTarget "WestpacTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527722231C0FD23700C398AB /* Debug */,
+				527722241C0FD23700C398AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 527721E71C0FD23600C398AB /* Project object */;
+}
