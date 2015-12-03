@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		527721F41C0FD23600C398AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 527721F31C0FD23600C398AB /* main.m */; };
 		527721F71C0FD23600C398AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 527721F61C0FD23600C398AB /* AppDelegate.m */; };
-		527721FA1C0FD23600C398AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527721F91C0FD23600C398AB /* ViewController.m */; };
+		527721FA1C0FD23600C398AB /* ForecastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527721F91C0FD23600C398AB /* ForecastViewController.m */; };
 		527721FD1C0FD23600C398AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527721FB1C0FD23600C398AB /* Main.storyboard */; };
 		527721FF1C0FD23600C398AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527721FE1C0FD23600C398AB /* Assets.xcassets */; };
 		527722021C0FD23600C398AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527722001C0FD23600C398AB /* LaunchScreen.storyboard */; };
 		5277220D1C0FD23700C398AB /* WestpacTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5277220C1C0FD23700C398AB /* WestpacTestTests.m */; };
 		527722181C0FD23700C398AB /* WestpacTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 527722171C0FD23700C398AB /* WestpacTestUITests.m */; };
+		C39F8D65FC410AEB171C38C2 /* libPods-WestpacTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E1F1364B52B7DD852C88EB /* libPods-WestpacTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,8 @@
 		527721F31C0FD23600C398AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		527721F51C0FD23600C398AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		527721F61C0FD23600C398AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		527721F81C0FD23600C398AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		527721F91C0FD23600C398AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		527721F81C0FD23600C398AB /* ForecastViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForecastViewController.h; sourceTree = "<group>"; };
+		527721F91C0FD23600C398AB /* ForecastViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForecastViewController.m; sourceTree = "<group>"; };
 		527721FC1C0FD23600C398AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		527721FE1C0FD23600C398AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		527722011C0FD23600C398AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,9 @@
 		527722131C0FD23700C398AB /* WestpacTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WestpacTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		527722171C0FD23700C398AB /* WestpacTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WestpacTestUITests.m; sourceTree = "<group>"; };
 		527722191C0FD23700C398AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28C3C40C093C0A69ED4A7AF /* Pods-WestpacTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WestpacTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-WestpacTest/Pods-WestpacTest.release.xcconfig"; sourceTree = "<group>"; };
+		A61740D01CDC8E68B515C4BE /* Pods-WestpacTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WestpacTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WestpacTest/Pods-WestpacTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F5E1F1364B52B7DD852C88EB /* libPods-WestpacTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WestpacTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C39F8D65FC410AEB171C38C2 /* libPods-WestpacTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				5277220B1C0FD23700C398AB /* WestpacTestTests */,
 				527722161C0FD23700C398AB /* WestpacTestUITests */,
 				527721F01C0FD23600C398AB /* Products */,
+				6EB0FB13B2E95C6A7194F9B7 /* Pods */,
+				6A465885DB1AE0E6F3CB637D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +110,8 @@
 			children = (
 				527721F51C0FD23600C398AB /* AppDelegate.h */,
 				527721F61C0FD23600C398AB /* AppDelegate.m */,
-				527721F81C0FD23600C398AB /* ViewController.h */,
-				527721F91C0FD23600C398AB /* ViewController.m */,
+				527721F81C0FD23600C398AB /* ForecastViewController.h */,
+				527721F91C0FD23600C398AB /* ForecastViewController.m */,
 				527721FB1C0FD23600C398AB /* Main.storyboard */,
 				527721FE1C0FD23600C398AB /* Assets.xcassets */,
 				527722001C0FD23600C398AB /* LaunchScreen.storyboard */,
@@ -140,6 +147,23 @@
 			path = WestpacTestUITests;
 			sourceTree = "<group>";
 		};
+		6A465885DB1AE0E6F3CB637D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5E1F1364B52B7DD852C88EB /* libPods-WestpacTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EB0FB13B2E95C6A7194F9B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A61740D01CDC8E68B515C4BE /* Pods-WestpacTest.debug.xcconfig */,
+				A28C3C40C093C0A69ED4A7AF /* Pods-WestpacTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5277221C1C0FD23700C398AB /* Build configuration list for PBXNativeTarget "WestpacTest" */;
 			buildPhases = (
+				564FAA4C508C9FF917AFF541 /* Check Pods Manifest.lock */,
 				527721EB1C0FD23600C398AB /* Sources */,
 				527721EC1C0FD23600C398AB /* Frameworks */,
 				527721ED1C0FD23600C398AB /* Resources */,
+				FE788BD549E838D23985F61F /* Embed Pods Frameworks */,
+				C276C9FA303EA41B46BA3C5D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,12 +292,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		564FAA4C508C9FF917AFF541 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C276C9FA303EA41B46BA3C5D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WestpacTest/Pods-WestpacTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE788BD549E838D23985F61F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WestpacTest/Pods-WestpacTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		527721EB1C0FD23600C398AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				527721FA1C0FD23600C398AB /* ViewController.m in Sources */,
+				527721FA1C0FD23600C398AB /* ForecastViewController.m in Sources */,
 				527721F71C0FD23600C398AB /* AppDelegate.m in Sources */,
 				527721F41C0FD23600C398AB /* main.m in Sources */,
 			);
@@ -409,6 +484,7 @@
 		};
 		5277221D1C0FD23700C398AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A61740D01CDC8E68B515C4BE /* Pods-WestpacTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WestpacTest/Info.plist;
@@ -420,6 +496,7 @@
 		};
 		5277221E1C0FD23700C398AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28C3C40C093C0A69ED4A7AF /* Pods-WestpacTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WestpacTest/Info.plist;
@@ -496,6 +573,7 @@
 				5277221E1C0FD23700C398AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5277221F1C0FD23700C398AB /* Build configuration list for PBXNativeTarget "WestpacTestTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +582,7 @@
 				527722211C0FD23700C398AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		527722221C0FD23700C398AB /* Build configuration list for PBXNativeTarget "WestpacTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +591,7 @@
 				527722241C0FD23700C398AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
