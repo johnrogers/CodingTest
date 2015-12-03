@@ -36,5 +36,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationUsageDescription</key>
+	<string>To determine a location to retrieve weather forecast information for.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>To determine a location to retrieve weather forecast information for.</string>
 </dict>
 </plist>

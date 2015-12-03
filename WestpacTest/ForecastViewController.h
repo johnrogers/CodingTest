@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ForecastViewController.h
 //  WestpacTest
 //
 //  Created by John Rogers on 3/12/2015.
@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ForecastViewController : UIViewController
+
 
 
 @end

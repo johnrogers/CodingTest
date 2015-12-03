@@ -7,6 +7,7 @@ target 'WestpacTest' do
 
 pod 'INTULocationManager'
 pod 'AFNetworking'
+pod 'Mantle'
 
 end
 

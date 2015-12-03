@@ -15,6 +15,9 @@
 		527722021C0FD23600C398AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527722001C0FD23600C398AB /* LaunchScreen.storyboard */; };
 		5277220D1C0FD23700C398AB /* WestpacTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5277220C1C0FD23700C398AB /* WestpacTestTests.m */; };
 		527722181C0FD23700C398AB /* WestpacTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 527722171C0FD23700C398AB /* WestpacTestUITests.m */; };
+		527722291C0FD3F400C398AB /* ForecastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 527722281C0FD3F400C398AB /* ForecastManager.m */; };
+		5277222F1C0FD5CE00C398AB /* CurrentForecastDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5277222E1C0FD5CE00C398AB /* CurrentForecastDetail.m */; };
+		527722331C0FD63400C398AB /* NSError+WestpacTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 527722321C0FD63400C398AB /* NSError+WestpacTest.m */; };
 		C39F8D65FC410AEB171C38C2 /* libPods-WestpacTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E1F1364B52B7DD852C88EB /* libPods-WestpacTest.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +55,12 @@
 		527722131C0FD23700C398AB /* WestpacTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WestpacTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		527722171C0FD23700C398AB /* WestpacTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WestpacTestUITests.m; sourceTree = "<group>"; };
 		527722191C0FD23700C398AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527722271C0FD3F400C398AB /* ForecastManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForecastManager.h; path = Managers/ForecastManager.h; sourceTree = "<group>"; };
+		527722281C0FD3F400C398AB /* ForecastManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForecastManager.m; path = Managers/ForecastManager.m; sourceTree = "<group>"; };
+		5277222D1C0FD5CE00C398AB /* CurrentForecastDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrentForecastDetail.h; path = Models/CurrentForecastDetail.h; sourceTree = "<group>"; };
+		5277222E1C0FD5CE00C398AB /* CurrentForecastDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurrentForecastDetail.m; path = Models/CurrentForecastDetail.m; sourceTree = "<group>"; };
+		527722311C0FD63400C398AB /* NSError+WestpacTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+WestpacTest.h"; path = "Categories/NSError+WestpacTest.h"; sourceTree = "<group>"; };
+		527722321C0FD63400C398AB /* NSError+WestpacTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+WestpacTest.m"; path = "Categories/NSError+WestpacTest.m"; sourceTree = "<group>"; };
 		A28C3C40C093C0A69ED4A7AF /* Pods-WestpacTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WestpacTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-WestpacTest/Pods-WestpacTest.release.xcconfig"; sourceTree = "<group>"; };
 		A61740D01CDC8E68B515C4BE /* Pods-WestpacTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WestpacTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WestpacTest/Pods-WestpacTest.debug.xcconfig"; sourceTree = "<group>"; };
 		F5E1F1364B52B7DD852C88EB /* libPods-WestpacTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WestpacTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,10 +117,12 @@
 		527721F11C0FD23600C398AB /* WestpacTest */ = {
 			isa = PBXGroup;
 			children = (
+				527722301C0FD60900C398AB /* Categories */,
+				5277222A1C0FD51E00C398AB /* Models */,
+				527722261C0FD3C300C398AB /* Managers */,
+				527722251C0FD39600C398AB /* View Controllers */,
 				527721F51C0FD23600C398AB /* AppDelegate.h */,
 				527721F61C0FD23600C398AB /* AppDelegate.m */,
-				527721F81C0FD23600C398AB /* ForecastViewController.h */,
-				527721F91C0FD23600C398AB /* ForecastViewController.m */,
 				527721FB1C0FD23600C398AB /* Main.storyboard */,
 				527721FE1C0FD23600C398AB /* Assets.xcassets */,
 				527722001C0FD23600C398AB /* LaunchScreen.storyboard */,
@@ -145,6 +156,42 @@
 				527722191C0FD23700C398AB /* Info.plist */,
 			);
 			path = WestpacTestUITests;
+			sourceTree = "<group>";
+		};
+		527722251C0FD39600C398AB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				527721F81C0FD23600C398AB /* ForecastViewController.h */,
+				527721F91C0FD23600C398AB /* ForecastViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		527722261C0FD3C300C398AB /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				527722271C0FD3F400C398AB /* ForecastManager.h */,
+				527722281C0FD3F400C398AB /* ForecastManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		5277222A1C0FD51E00C398AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5277222D1C0FD5CE00C398AB /* CurrentForecastDetail.h */,
+				5277222E1C0FD5CE00C398AB /* CurrentForecastDetail.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		527722301C0FD60900C398AB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				527722311C0FD63400C398AB /* NSError+WestpacTest.h */,
+				527722321C0FD63400C398AB /* NSError+WestpacTest.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 		6A465885DB1AE0E6F3CB637D /* Frameworks */ = {
@@ -347,6 +394,9 @@
 			files = (
 				527721FA1C0FD23600C398AB /* ForecastViewController.m in Sources */,
 				527721F71C0FD23600C398AB /* AppDelegate.m in Sources */,
+				5277222F1C0FD5CE00C398AB /* CurrentForecastDetail.m in Sources */,
+				527722331C0FD63400C398AB /* NSError+WestpacTest.m in Sources */,
+				527722291C0FD3F400C398AB /* ForecastManager.m in Sources */,
 				527721F41C0FD23600C398AB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
