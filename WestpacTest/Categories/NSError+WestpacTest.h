@@ -17,27 +17,9 @@ typedef NS_ENUM(NSInteger, ForecastManagerError) {
 
 @interface NSError (WestpacTest)
 
-#pragma mark ForecastManager Errors: kForecastManagerErrorDomain;
+#pragma mark ForecastManager Errors: kForecastManagerErrorDomain
 
-+ (instancetype)noCurrentForecaseReceivedError;
++ (instancetype)noCurrentForecastReceivedError;
 + (instancetype)locationServicesIssueError;
 
 @end
-
-// Error domains
-
-//FOUNDATION_EXPORT NSString *const kAOTGAPICommunicationManagerErrorDomain;
-//
-//typedef NS_ENUM(NSInteger, AOTGAPICommunicationManagerError) {
-//	AOTGAPICommunicationManagerErrorEmptyResponse,
-//	AOTGAPICommunicationManagerErrorInvalidLogin,
-//	AOTGAPICommunicationManagerErrorAnswersSubmissionUnsuccessful
-//};
-//
-//@interface NSError (AOTG)
-//
-//#pragma mark APICommunicationManager Errors: kAOTGAPICommunicationManagerErrorDomain
-//
-//+ (instancetype)emptyResponseError;
-//+ (instancetype)invalidLoginError;
-//+ (instancetype)answersSubmissionUnsuccessfulError;

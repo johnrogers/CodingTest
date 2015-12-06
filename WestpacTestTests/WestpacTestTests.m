@@ -7,6 +7,8 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "ForecastManager.h"
+#import "NSError+WestpacTest.h"
 
 @interface WestpacTestTests : XCTestCase
 
@@ -14,26 +16,49 @@
 
 @implementation WestpacTestTests
 
-- (void)setUp {
+- (void)setUp
+{
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
-- (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+- (void)tearDown
+{
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+- (void)testForecastRetrieval
+{
+	/*
+	 * If given more time I would take the time to write stubs using a 
+	 * library such as OHHTTPStubs to provide mock API responses to test
+	 * that errors are correctly returned.
+	 */
+	XCTestExpectation *expectation = [self expectationWithDescription:@"Forecast is retrieved"];
+	
+	[[ForecastManager sharedManager] retrieveForecastForCurrentLocationWithCompletion:^(CurrentForecastDetail * _Nullable forecastDetail, CLLocation * _Nullable forecastLocation, NSError * _Nullable error) {
+		XCTAssertNotNil(forecastDetail);
+		[expectation fulfill];
+	}];
+	
+	[self waitForExpectationsWithTimeout:5.f handler:^(NSError *error) {
+		if (error) {
+			NSLog(@"Forecast not retrieved in a timely manner.");
+		}
+	}];
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testNoCurrentForecastReceivedErrorReturned
+{
+	NSError *noCurrentForecastReceivedError = [NSError noCurrentForecastReceivedError];
+	XCTAssert(noCurrentForecastReceivedError.domain == kForecastManagerErrorDomain);
+	XCTAssert(noCurrentForecastReceivedError.code == ForecastManagerErrorNoCurrentForecastReceived);
+}
+
+- (void)testLocationServicesIssueErrorReturned
+{
+	NSError *noCurrentForecastReceivedError = [NSError locationServicesIssueError];
+	XCTAssert(noCurrentForecastReceivedError.domain == kForecastManagerErrorDomain);
+	XCTAssert(noCurrentForecastReceivedError.code == ForecastManagerErrorLocationServicesIssue);
 }
 
 @end

@@ -86,6 +86,7 @@ static NSString *const kForecastIOAPIKey = @"7fb0d7ad0eb8de8fbe447287c61c848e";
 				
 				// Construct a forecast model from the response
 				CurrentForecastDetail *detail = [MTLJSONAdapter modelOfClass:[CurrentForecastDetail class] fromJSONDictionary:currentForecastData error:&mtlError];
+				_lastRetrievedForecastDetail = detail;
 				
 				if (completion) {
 					completion(detail, location, nil);
@@ -94,7 +95,7 @@ static NSString *const kForecastIOAPIKey = @"7fb0d7ad0eb8de8fbe447287c61c848e";
 			else {
 				// No current forecast data received
 				if (completion) {
-					completion(nil, location, [NSError noCurrentForecaseReceivedError]);
+					completion(nil, location, [NSError noCurrentForecastReceivedError]);
 				}
 			}
 		} failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {

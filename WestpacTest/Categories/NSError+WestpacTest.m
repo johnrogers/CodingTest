@@ -14,7 +14,7 @@ NSString *const kForecastManagerErrorDomain = @"com.WestpacTest.ForecastManagerE
 
 #pragma mark - ForecastManager Errors: kForecastManagerErrorDomain
 
-+ (instancetype)noCurrentForecaseReceivedError
++ (instancetype)noCurrentForecastReceivedError
 {
 	return [NSError errorWithDomain:kForecastManagerErrorDomain
 							   code:ForecastManagerErrorNoCurrentForecastReceived

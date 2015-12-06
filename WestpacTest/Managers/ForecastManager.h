@@ -16,7 +16,7 @@ typedef void (^ForecastCompletion)(CurrentForecastDetail *_Nullable forecastDeta
 
 @interface ForecastManager : NSObject
 
-+ (instancetype)sharedManager;
++ (nonnull instancetype)sharedManager;
 
 /**
  * Retireves the weather forecast for the current location.
@@ -24,5 +24,10 @@ typedef void (^ForecastCompletion)(CurrentForecastDetail *_Nullable forecastDeta
  * the error message will contain a suitable error domain and description.
  */
 - (void)retrieveForecastForCurrentLocationWithCompletion:(nonnull ForecastCompletion)completion;
+
+/**
+ * The last retrieved forecast detail. Nil if none.
+ */
+@property (strong, nonatomic) CurrentForecastDetail *_Nullable lastRetrievedForecastDetail;
 
 @end

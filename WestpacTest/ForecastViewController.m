@@ -20,7 +20,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *locationLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *conditionImageView;
 @property (weak, nonatomic) IBOutlet UILabel *temperatureLabel;
-@property (weak, nonatomic) IBOutlet UIImageView *unitImageView;
 @property (weak, nonatomic) IBOutlet UILabel *summaryLabel;
 @property (weak, nonatomic) IBOutlet UILabel *apparentTemperatureLabel;
 @property (weak, nonatomic) IBOutlet UILabel *humidityLabel;
